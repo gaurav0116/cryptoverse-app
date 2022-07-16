@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';     // React router dom
 import { Layout, Typography, Space } from 'antd';       // Ant design components
-import './App.css'
+import './App.css';     // CSS file
 
 import { Navbar, Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails } from './components';      // components
 
@@ -12,6 +12,7 @@ const App = () => {
                 <Navbar />
             </div>
 
+            {/* ---------- Main ---------- */}
             <div className="main">
                 <Layout>
                     <div className="routes">
@@ -25,16 +26,16 @@ const App = () => {
                     </div>
                 </Layout>
 
-
+                {/* ---------- Footer ---------- */}
                 <div className="footer">
                     <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
                         Cryptoverse
                         <br />
-                        All rights reserved
+                        All rights reserved by <span style={{color:'#0071bd'}}> Gaurav Dhandhukiya </span>
                     </Typography.Title>
                     <Space>
                         <Link to='/'> Home </Link>
-                        <Link to='/exchanges'>Exchanges</Link>
+                        <Link to="/cryptocurrencies">Cryptocurrencies</Link>
                         <Link to='/news'>News</Link>
                     </Space>
                 </div>

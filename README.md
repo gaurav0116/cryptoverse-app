@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Cryptoverse Web Application (React + Redux)
+I built this project using React.js in this project I used [Coinranking API](https://rapidapi.com/Coinranking/api/coinranking1/) to get Cryptocurrencies data dynamically & also used [Bing news API](https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-image-search1/) to get Crypto-related news and both API States manage using [Redux](https://redux-toolkit.js.org/) Create Currency's Prise History chart using [React-Chart.js](https://www.npmjs.com/package/react-chartjs-2) & Create Responsive & Interactive UI using [Ant design](https://ant.design/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## More Details About the Project
 
-## Available Scripts
+This amazing application provides around 90-100 Cryptocurrencies information like the Current Price, Market cap, Daily change, etc... If click on any particular currency then shows its Price Chart, Value Statistics, currency history & social media links this is all data fetched from the Coinranking API. This App also provides daily cryptocurrency-related news dynamically from the Bing news API  & also provides the utility of selecting any particular currency-related  news. Both API's States are managed by The Redux. 
 
-In the project directory, you can run:
+## Project's Photos
 
-### `npm start`
+### 1. Home Page
+![image](https://user-images.githubusercontent.com/83348870/179364102-8b7f3d35-47ec-4c88-a399-be2499f88dc6.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Cryptocurrencies Page
+![image](https://user-images.githubusercontent.com/83348870/179364253-32f24d7b-44ed-4e0a-8e8d-416068cfd397.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Search particular currency
+![image](https://user-images.githubusercontent.com/83348870/179364325-3989bfe2-7752-416e-ab3c-84c8ac0e7e16.png)
 
-### `npm test`
+### 4. Selected particular currency
+![image](https://user-images.githubusercontent.com/83348870/179364403-e1e7bbf4-83ac-4138-a1ff-3aa8b36d9839.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. Selected Currency Statistics
+![image](https://user-images.githubusercontent.com/83348870/179364465-fc8e547e-8cb6-4cc9-bd2b-f6a32aec75b0.png)
 
-### `npm run build`
+### 6. Selected Currency History & Social media Links
+![image](https://user-images.githubusercontent.com/83348870/179364577-21b0c305-0bd2-4f41-bef9-7037f976f166.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 7. News Page
+![image](https://user-images.githubusercontent.com/83348870/179364605-6efe50b3-de59-4ed1-a792-29e5a7436d34.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 8. Select Particular Currency related news
+![image](https://user-images.githubusercontent.com/83348870/179364734-9e799c31-5ce2-4fe7-af9f-809092cb225b.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,5 +1,5 @@
 # Cryptoverse Web Application (React + Redux)
-I built this project using React.js in this project I used [Coinranking API](https://rapidapi.com/Coinranking/api/coinranking1/) to get Cryptocurrencies data dynamically & also used [Bing news API](https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-image-search1/) to get Crypto-related news and both API States manage using [Redux](https://redux-toolkit.js.org/) Create Currency's Prise History chart using [React-Chart.js](https://www.npmjs.com/package/react-chartjs-2) & Create Responsive & Interactive UI using [Ant design](https://ant.design/).
+I built this project using React.js in this project I used [Coinranking API](https://rapidapi.com/Coinranking/api/coinranking1/) to get Cryptocurrencies data dynamically & also used [Bing news API](https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1) to get Crypto-related news and both API States manage using [Redux](https://redux-toolkit.js.org/) Create Currency's Prise History chart using [React-Chart.js](https://www.npmjs.com/package/react-chartjs-2) & Create Responsive & Interactive UI using [Ant design](https://ant.design/).
 
 ## More Details About the Project
 

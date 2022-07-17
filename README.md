@@ -3,7 +3,9 @@ I built this project using React.js in this project I used [Coinranking API](htt
 
 ## More Details About the Project
 
-This amazing application provides around 90-100 Cryptocurrencies information like the Current Price, Market cap, Daily change, etc... If click on any particular currency then shows its Price Chart, Value Statistics, currency history & social media links this is all data fetched from the Coinranking API. This App also provides daily cryptocurrency-related news dynamically from the Bing news API  & also provides the utility of selecting any particular currency-related  news. Both API's States are managed by The Redux. 
+This amazing application provides around 90-100 Cryptocurrencies information like the Current Price, Market cap, Daily change, etc... If click on any particular currency then shows its Price Chart, Value Statistics, currency history & social media links this is all data fetched from the Coinranking API. This App also provides daily cryptocurrency-related news dynamically from the Bing news API  & also provides the utility of selecting any particular currency-related  news. Both API's States are managed by The Redux. Project's Live Website Link is below check it now.
+
+### [Project Live link](https://cryptoverse-app-by-gp.netlify.app/)
 
 ## Project's Photos
 
